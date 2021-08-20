@@ -1,0 +1,71 @@
+.navbar {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 20px;
+  background-color: white;
+}
+
+.carousel {
+  margin-top: 65px;
+}
+
+.navbar .navbar-nav {
+  padding-right: 35px;
+}
+
+.info-panel {
+  margin-top: 50px;
+}
+
+.info-panel a {
+  text-decoration: none;
+}
+
+.info {
+  border: px solid rgb(94, 129, 245);
+  padding-top: 20px;
+  box-shadow: 1px 1px 3px rgb(184, 184, 184);
+  border-radius: 10px;
+}
+
+.info-row img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.info-row h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.info-row p {
+  text-align: center;
+  color: rgb(126, 126, 126);
+  font-weight: 500;
+}
+
+.banner2 {
+  margin-top: 50px;
+}
+
+.navbar2 {
+  margin-top: 30px;
+}
+
+.card {
+  text-align: center;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: "";
+    border-bottom: 3px solid rgb(94, 129, 245);
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 2px;
+    margin-bottom: -5px;
+  }
+}
